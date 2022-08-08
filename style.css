@@ -17,6 +17,20 @@ body{
     font-weight: bold;
 }
 
+p{
+    font-size: 14px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+a.font-black{
+    color: #000 imo !important;
+}
+
 /*********
 
 ABOUT
@@ -29,7 +43,7 @@ ABOUT
     text-align: center;
 }
 
-#about .img{
+#about img{
     border-radius: 50%;
     width: 120px;
     margin-bottom: 10px;
@@ -63,5 +77,28 @@ ABOUT
 
 #about .icons a{
     color:#000;
-    
+
+}
+
+/*******************
+
+PROJECT
+
+******************/
+
+#project{
+    margin: 60px auto;
+    width: 80%;
+}
+
+#project h2{
+    text-align: center;
+}
+
+#project .card img{
+    width: 100%;
+}
+
+#project .card-title{
+    font-weight: bold;
 }
